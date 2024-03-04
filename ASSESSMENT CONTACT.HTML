@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f0; /* Light beige background color */
+            color: #333; /* Dark text color */
+        }
+
+        header {
+            background-color: #333; /* Dark header background color */
+            color: #fff; /* White text color */
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 50px;
+        }
+
+        .form-container {
+            flex: 1;
+            background-color: #fff; /* White background for form */
+            border: 1px solid #ddd; /* Light gray border */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333; /* Dark button color */
+            color: #fff; /* White button text color */
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-info {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            width: 30px;
+            height: 30px;
+            background-color: #333; /* Dark social icon background color */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff; /* White social icon color */
+            text-decoration: none;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us Page</h1>
+    </header>
+
+    <div class="contact-container">
+        <div class="form-container">
+            <form>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Contact Us</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <p>Contact hi@fashion.com</p>
+            <p>Based in San Francisco, California</p>
+            
+            <p>123 Fashion Street, San Francisco, CA 12345</p>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.7264600834636!2d-122.41941588463214!3d37.77492987975823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e051f12e257%3A0xd23a5e8a38bb49b3!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1678944848623!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/hirwa.odillo" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="  https://twitter.com/home" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" title="Instagram"><i class="fab fa-instagram"></i></a>
+               
+                <a href="https://www.youtube.com/channel/UCHyWBKhMpFB1CV-x-zug_Bg" title="Youtube"><i class="fab fa-youtube"></i></a>
+                
+                <a href="#" title="Youtube"><i class="far fa-image"></i></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
